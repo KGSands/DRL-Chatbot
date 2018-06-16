@@ -1,0 +1,15 @@
+Greetings,Greetings_A,Place,Place_A,Cost,Answers
+Hello,"Hello, how can I help?",Italian,What type of Italian place (cost)?,Cheap,<Cheap Italian Place Name>
+,,Chinese,What type of Chinese place (cost)?,Expensive,<Expensive Italian Place Name>
+,,Japanese,What type of Japanese place (cost)?,,<Cheap Chinese Place Name>
+,,Pizza,What type of pizza place (cost)?,,<Expensive Chinese Place Name>
+,,American,What type of American place (cost)?,,<Cheap Japanese Place Name>
+,,Indian,What type of Indian place (cost)?,,<Expensive Japanese Place Name>
+,,Kebab,What type of Kebab place (cost)?,,<Cheap Pizza Place Name>
+,,,,,There are no expensive pizza places
+,,,,,<Cheap American Place Name>
+,,,,,<Expensive American Place Name>
+,,,,,<Cheap Indian Place Name>
+,,,,,<Expensive Indian Place Name>
+,,,,,<Cheap Kebab Place Name>
+,,,,,There are no expensive kebab places

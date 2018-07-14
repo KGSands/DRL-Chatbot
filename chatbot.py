@@ -2,8 +2,8 @@
 ############################################################################################
 Main Classes:
 	Environment				The environment for the agent to explore
-	ReplayMemory			The memory which holds the states, action taken and Q-values	
-	NeuralNetwork			The neural network for estimating Q-values
+	ReplayMemory				The memory which holds the states, action taken and Q-values	
+	NeuralNetwork				The neural network for estimating Q-values
 	Agent					The agent to learn the environment		
 ############################################################################################
 Pseudocode:
@@ -33,15 +33,15 @@ Pseudocode:
 ############################################################################################
 Imports:
 	OS: 					Changing dir
-	Tensorflow: 			Creating the neural network
+	Tensorflow: 				Creating the neural network
 	W2V: 					Vector representations of the words
 	Gensim: 				Modelling which contains W2V with additional functionality
-	NLTK - word_tokenize	Allows to build a sentence vector
+	NLTK - word_tokenize			Allows to build a sentence vector
 	Argparse:				For passing arguments into cmd
 	Time:					Used during testing when the user enters a goodbye message
 	Sys:					Clearing the screen for the training screen
-	timeit - default_timer	Used for timing the execution time of training
-	matplotlib.pyplot		Plotting average reward over time
+	timeit - default_timer			Used for timing the execution time of training
+	matplotlib.pyplot			Plotting average reward over time
 ############################################################################################
 """
 import os

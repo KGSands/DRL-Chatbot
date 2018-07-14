@@ -241,7 +241,7 @@ class ReplayMemory:
 		num_actions: Number of possible actions in the environment.
 		discount_rate: The discount factor for updating Q-values.
 
-	# Loosely inspired by https://github.com/Hvass-Labs/TensorFlow-Tutorials
+	# Inspired by https://github.com/Hvass-Labs/TensorFlow-Tutorials
 	# Updating Q-Values, getting batch indeces and some other parts are vastly different
 	"""
 
@@ -351,7 +351,7 @@ class NeuralNetwork:
 		num_actions: The number of actions (number of Q-values needed to estimate)
 		replay_memory: This is used to optimize the neural network and produce better Q-values
 
-	# Some init values and optimization inspired by https://github.com/Hvass-Labs/TensorFlow-Tutorials
+	# Init values and optimization inspired by https://github.com/Hvass-Labs/TensorFlow-Tutorials
 	"""
 
 	def __init__(self, num_actions, replay_memory):

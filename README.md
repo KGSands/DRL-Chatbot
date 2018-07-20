@@ -18,3 +18,6 @@ Change line 61 to the desired checkpoint directory to store the learned Q-values
 Change line 62 to the desired logs directory for TensorBoard
 
 Change line 65 to the folder containing "Conversations.csv"
+
+
+NOTE: Further info within Software Report & Dissertation folder including screenshots of the system.
